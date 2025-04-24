@@ -1,0 +1,15 @@
+# Generated malicious IP samples
+91.219.28.107  # c2 - c2, trojan_c2, ransomware_c2
+45.134.142.9  # scanner - scanner, reconnaissance
+103.107.198.203  # botnet - botnet, ddos_botnet
+45.134.38.36  # scanner - scanner, port_scanner, reconnaissance
+195.123.237.85  # c2 - c2, malware_c2
+
+# Legitimate IPs for comparison
+8.8.8.8         # Google DNS
+1.1.1.1         # Cloudflare DNS
+172.217.1.174   # Google
+
+# Private IPs
+192.168.1.1     # Common private router IP
+10.0.0.1        # Internal network IP

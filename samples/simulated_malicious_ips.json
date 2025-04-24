@@ -1,0 +1,135 @@
+[
+  {
+    "ip": "91.219.28.107",
+    "category": "c2",
+    "tags": [
+      "c2",
+      "trojan_c2",
+      "ransomware_c2"
+    ],
+    "creation_date": "2024-06-14T14:19:56.426966",
+    "first_seen": "2024-06-17T14:19:56.426966",
+    "last_seen": "2025-04-10T14:19:56.426966",
+    "ports": [
+      8008
+    ],
+    "threat_actor": {
+      "name": "APT29",
+      "alias": "Cozy Bear",
+      "sponsor": "Russia"
+    },
+    "confidence": "Medium",
+    "ttp_ids": [
+      "T1071",
+      "T1573"
+    ]
+  },
+  {
+    "ip": "45.134.142.9",
+    "category": "scanner",
+    "tags": [
+      "scanner",
+      "reconnaissance"
+    ],
+    "creation_date": "2025-02-13T14:19:56.426966",
+    "first_seen": "2025-03-11T14:19:56.426966",
+    "last_seen": "2025-04-15T14:19:56.426966",
+    "ports": [
+      80,
+      21,
+      443,
+      8080,
+      25,
+      23
+    ],
+    "threat_actor": {
+      "name": "APT28",
+      "alias": "Fancy Bear",
+      "sponsor": "Russia"
+    },
+    "confidence": "High",
+    "ttp_ids": [
+      "T1595",
+      "T1590"
+    ]
+  },
+  {
+    "ip": "103.107.198.203",
+    "category": "botnet",
+    "tags": [
+      "botnet",
+      "ddos_botnet"
+    ],
+    "creation_date": "2024-11-18T14:19:56.426966",
+    "first_seen": "2024-12-05T14:19:56.426966",
+    "last_seen": "2025-04-11T14:19:56.426966",
+    "ports": [
+      80
+    ],
+    "threat_actor": {
+      "name": "Conti",
+      "alias": "Wizard Spider",
+      "sponsor": "Criminal"
+    },
+    "confidence": "Medium",
+    "ttp_ids": [
+      "T1498",
+      "T1566"
+    ]
+  },
+  {
+    "ip": "45.134.38.36",
+    "category": "scanner",
+    "tags": [
+      "scanner",
+      "port_scanner",
+      "reconnaissance"
+    ],
+    "creation_date": "2024-12-23T14:19:56.426966",
+    "first_seen": "2025-01-05T14:19:56.426966",
+    "last_seen": "2025-04-21T14:19:56.426966",
+    "ports": [
+      8080,
+      80,
+      3389,
+      8443,
+      21,
+      23
+    ],
+    "threat_actor": {
+      "name": "APT41",
+      "alias": "BARIUM",
+      "sponsor": "China"
+    },
+    "confidence": "Medium",
+    "ttp_ids": [
+      "T1595",
+      "T1590"
+    ]
+  },
+  {
+    "ip": "195.123.237.85",
+    "category": "c2",
+    "tags": [
+      "c2",
+      "malware_c2"
+    ],
+    "creation_date": "2024-06-25T14:19:56.426966",
+    "first_seen": "2024-06-27T14:19:56.426966",
+    "last_seen": "2025-04-21T14:19:56.426966",
+    "ports": [
+      8080,
+      8008
+    ],
+    "threat_actor": {
+      "name": "FIN7",
+      "alias": "Carbanak",
+      "sponsor": "Criminal"
+    },
+    "confidence": "Low",
+    "ttp_ids": [
+      "T1071",
+      "T1573"
+    ]
+  }
+]

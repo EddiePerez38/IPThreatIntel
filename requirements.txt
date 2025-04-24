@@ -1,0 +1,16 @@
+﻿# Core libraries
+requests==2.31.0
+colorama==0.4.6
+tqdm==4.66.1
+rich==13.6.0
+
+# Data processing
+numpy==1.26.0
+pandas==2.1.1
+
+# IP analysis specific
+ipaddress==1.0.23
+geoip2==4.7.0
+python-whois==0.8.0
+dnspython==2.4.2
+aiohttp==3.8.5
